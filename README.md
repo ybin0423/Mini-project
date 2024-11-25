@@ -19,27 +19,27 @@ with each entry representing a specific time frame.
 
 **Decision Tree Regression**
 
->● **Hyperparameters**: I conducted a grid search for hyperparameter tuning, exploring
+>**Hyperparameters**: I conducted a grid search for hyperparameter tuning, exploring
 options such as max_depth, min_samples_split, and min_samples_leaf.
 >
->● **Tuned Parameters**: The best parameters obtained from the grid search were used to
+>**Tuned Parameters**: The best parameters obtained from the grid search were used to
 initialize the Decision Tree Regression model, from max_depth = [3, 5, 7], minimum
 sample split = [2, 5] and minimum sample leaf = [1, 2, 4].
 
 **Ridge Regression**
 
->● **Hyperparameters**: The alpha parameter, controlling the regularization, was optimized
+>**Hyperparameters**: The alpha parameter, controlling the regularization, was optimized
 through grid search.
 >
->● **Tuned Parameters**: The best alpha value obtained from the grid search was employed in
+>**Tuned Parameters**: The best alpha value obtained from the grid search was employed in
 training the Ridge Regression model, from alpha = [0.001, 0.1, 1].
 
 **XGBoost Regression**
 
->● **Hyperparameters**: I performed a grid search for parameters like learning_rate,
+>**Hyperparameters**: I performed a grid search for parameters like learning_rate,
 n_estimators, max_depth, subsample, and colsample_bytree.
 >
->● **Tuned Parameters**: The optimal parameters determined from the grid search were
+>**Tuned Parameters**: The optimal parameters determined from the grid search were
 utilized to configure the XGBoost Regression model, from learning_rate = [0.01, 0.1],
 n_estimators = [30, 50], maximum depth = [3, 5, 7], subsample = [0.8, 0.9, 1.0] and
 colsample by tree = [0.8, 0.9, 1.0].
